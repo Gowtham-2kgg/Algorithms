@@ -144,6 +144,57 @@ public class BinarySearchTree
             
         }
     }
+    //tocheck if BST is a BST
+    public bool ValidateBst(BinarySearchTree root)
+    {
+        if (root == null)
+        {
+            return true;
+        }
+
+        var min = int.MaxValue;
+        var max = int.MinValue;
+
+        if (root.RightChild != null)
+        {
+            var right = root.RightChild;
+            while (right != null)
+            {
+                if (min > right.Value)
+                {
+                    min = right.Value;
+                }
+
+                right = right.RightChild;
+            }
+
+            if (min < root.Value)
+            {
+                return false;
+            }
+        }
+        if (root.LeftChild != null)
+        {
+            var left = root.LeftChild;
+            while (left != null)
+            {
+                if (max < left.Value)
+                {
+                    max = left.Value;
+                }
+
+                left = left.LeftChild;
+            }
+
+            if (max > root.Value)
+            {
+                return false;
+            }
+        }
+
+        return true && ValidateBst(root.LeftChild) && ValidateBst(root.RightChild);
+
+    }
 
     public void Traversal(BinarySearchTree searchTree)
     {
@@ -189,4 +240,5 @@ public class BinarySearchTree
         Console.WriteLine(searchTree.Value);
         InOrder(searchTree.RightChild);
     }
+	
 }

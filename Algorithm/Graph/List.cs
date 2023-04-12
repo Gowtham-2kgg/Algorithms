@@ -186,5 +186,47 @@ public class List
             }
         }
     }
+    //Dijikstra is used to find shortest path
+    public int FindMinValue(List<List<int>> graph, bool[] isVisited, int[] distance)
+    {
+        int min=Int32.MaxValue;
+        int min_Index = 0;
+        for (int i = 0; i < graph.Count; i++)
+        {
+            if (isVisited[i] == false && distance[i] <= min)
+            {
+                min = distance[i];
+                min_Index = i;
+            }
+        }
+
+        return min_Index;
+    }
+
+    public void DijisktraAlgorithm(int src, List<List<int>> graph)
+    {
+        bool[] isVisited = new bool[10];
+        var distance = new int[10];
+
+        for (int i = 0; i < 10; i++)
+        {
+            distance[i] = int.MaxValue;
+            isVisited[i] = true;
+        }
+
+        distance[src] = 0;
+        for (int i = 0; i < 10; i++)
+        {
+            int u = FindMinValue(graph, isVisited, distance);
+            isVisited[u] = true;
+            for (int v = 0; v < 10; v++)
+            {
+                if (!isVisited[v] && graph[u][v] != 0 &&
+                    distance[u] != int.MaxValue &&
+                    distance[u] + graph[u][v] < distance[v])
+                    distance[v] = distance[u] + graph[u][v];
+            }
+        }
+    }
 
 }

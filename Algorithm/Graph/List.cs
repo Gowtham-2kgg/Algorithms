@@ -75,4 +75,116 @@ public class List
         }
 // print stack
     }
+    //detecting cycles in a graph is same for both directed and not directed
+    public void DedectCycle()
+    {
+        var graph = new List<List<int>>();
+        bool[] isVisited = new bool[5];
+        bool[] isCycle = new bool[5];
+        for (int i = 0; i < 5; i++)
+        {
+            if (!isVisited[i])
+            {
+                if (DetectCycleInGraph(i, graph, isVisited, isCycle))
+                {
+                    //
+                }
+            }
+        }
+
+    }
+
+    private bool DetectCycleInGraph(int node,List<List<int>> graph, bool[] isVisited, bool[] isCycle)
+    {
+        if (isCycle[node])
+        {
+            return true;
+        }
+        if (isVisited[node])
+        {
+            return false;
+        }
+
+        isCycle[node] = true;
+        isVisited[node] = true;
+
+        foreach (var nodes in graph[node])
+        {
+            if (DetectCycleInGraph(nodes, graph, isVisited, isCycle))
+            {
+                return true;
+            }
+        }
+
+        isCycle[node] = false;
+        return false;
+    }
+    //DFS we used dfs everywhere above
+    public void DfsRecursive(int node,List<List<int>> graph, bool[] isVisited)
+    {
+        if (isVisited[node])
+        {
+            return;
+        }
+
+        isVisited[node] = true;
+        Console.WriteLine(node);
+
+        foreach (var adjs in graph[node])
+        {
+            DfsRecursive(adjs,graph,isVisited);
+        }
+    }
+
+    public void Dfs(int node, List<List<int>> graph, bool[] isVisited, Stack<int> stack)
+    {
+        if (isVisited[node])
+        {
+            return;
+        }
+        stack.Push(node);
+        while (stack.Count != 0)
+        {
+            node = stack.Pop();
+            if (!isVisited[node])
+            {
+                Console.WriteLine(node);
+                isVisited[node] = true;
+            }
+
+            foreach (var nodes in graph[node])
+            {
+                if (!isVisited[nodes])
+                {
+                    stack.Push(nodes);
+                }
+            }
+        }
+    }
+    public void bfs(int node, List<List<int>> graph, bool[] isVisited, Queue<int> queue)
+    {
+        if (isVisited[node])
+        {
+            return;
+        }
+        queue.Enqueue(node);
+        while (queue.Count != 0)
+        {
+            node = queue.Dequeue();
+            if (!isVisited[node])
+            {
+                Console.WriteLine(node);
+                isVisited[node] = true;
+            }
+
+            foreach (var nodes in graph[node])
+            {
+                if (!isVisited[nodes])
+                {
+                    queue.Enqueue(nodes);
+                }
+            }
+        }
+    }
+
 }

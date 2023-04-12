@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/Graph/List.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/Graph/Matrix.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Algorithms.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Trees/AnaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Trees/AnaryTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Trees/Trees.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Trees/Trees.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net7.0/Algorithms.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Graph/List.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681110105965</updated>
       <workItem from="1681110111534" duration="664000" />
-      <workItem from="1681283025714" duration="4800000" />
+      <workItem from="1681283025714" duration="7639000" />
     </task>
     <servers />
   </component>

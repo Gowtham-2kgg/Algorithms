@@ -144,6 +144,9 @@ public class BinarySearchTree
             
         }
     }
+public void LevelOrderTraversal(){
+//using list and dictionary
+}
     //tocheck if BST is a BST
     public bool ValidateBst(BinarySearchTree root)
     {

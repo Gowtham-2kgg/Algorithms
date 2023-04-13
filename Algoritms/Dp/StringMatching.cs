@@ -6,9 +6,9 @@ public class StringMatching
     {
         int[,] dp = new int[one.Length+1,two.Length+1];
 
-        for (int i = 0; i < one.Length; i++)
+        for (int i = 0; i <= one.Length; i++)
         {
-            for (int j = 0; j < two.Length; j++)
+            for (int j = 0; j <= two.Length; j++)
             {
                 if (i == 0)
                 {
@@ -20,7 +20,7 @@ public class StringMatching
                     dp[i, j] = i;
                 }
 
-                else if (one.ToCharArray()[i] == two.ToCharArray()[j])
+                else if (one.ToCharArray()[i-1] == two.ToCharArray()[j-1])
                 {
                     dp[i, j] = dp[i - 1, j - 1];
                 }

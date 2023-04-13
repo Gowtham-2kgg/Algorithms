@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algorithm/Algorithm.csproj",
-      "projectName": "Algorithm",
-      "projectPath": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algorithm/Algorithm.csproj",
+      "projectUniqueName": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algoritms/Algoritms.csproj",
+      "projectName": "Algoritms",
+      "projectPath": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algoritms/Algoritms.csproj",
       "packagesPath": "/Users/gowtham.b/.nuget/packages/",
-      "outputPath": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algorithm/obj/",
+      "outputPath": "/Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algoritms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gowtham.b/.nuget/NuGet/NuGet.Config"

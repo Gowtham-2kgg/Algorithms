@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Algorithm
-build_property.ProjectDir = /Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algorithm/
+build_property.RootNamespace = Algoritms
+build_property.ProjectDir = /Users/gowtham.b/Documents/Gowtham_Project/Algorithms/Algoritms/

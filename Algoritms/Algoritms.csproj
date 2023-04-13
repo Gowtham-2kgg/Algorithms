@@ -7,9 +7,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Include="obj\Graph\List.cs" />
-      <Compile Include="obj\Graph\Matrix.cs" />
-    </ItemGroup>
-
 </Project>

@@ -246,54 +246,54 @@ public void LevelOrderTraversal(){
 
     private void NonRecursiveInOrder(BinarySearchTree searchTree)
     {
-        var t = new Stack<int>();
-        t.push(searchTree);
+        var t = new Stack<BinarySearchTree>();
+        t.Push(searchTree);
         var cur = searchTree;
-        while (searchTree.Length != 0 || cur != null)
+        while (t.Count != 0 || cur != null)
         {
             while (cur != null)
             {   
-                t.push(cur);
+                t.Push(cur);
                 cur = cur.LeftChild;
                 
             }
 
-            var g = t.pop();
+            var g = t.Pop();
             Console.WriteLine(g.Value);
             cur = g.RightChild;
         }
     }
     private void NonRecursivePreOrder(BinarySearchTree searchTree)
     {
-        var t = new Stack<int>();
-        t.push(searchTree);
+        var t = new Stack<BinarySearchTree>();
+        t.Push(searchTree);
         var cur = searchTree;
-        while (searchTree.Length != 0)
+        while (t.Count != 0)
         {
-            var g = t.pop();
+            var g = t.Pop();
             Console.WriteLine(g.Value);
 
             if (g.RightChild != null)
             {
-                t.push(g.RightChild);
+                t.Push(g.RightChild);
             }
 
-            if (g.LeftChld != null)
+            if (g.LeftChild != null)
             {
-                t.push(g.LeftChild);
+                t.Push(g.LeftChild);
             }
         }
     }
 
     private void NonRecursivePostOrder(BinarySearchTree searchTree)
     {
-        var s1 = new Stack<int>();
-        var s2 = new Stack<int>();
-        s1.push(searchTree);
+        var s1 = new Stack<BinarySearchTree>();
+        var s2 = new Stack<BinarySearchTree>();
+        s1.Push(searchTree);
 
         while (s1.Count != 0)
         {
-            vat temp = s1.Pop();
+            var temp = s1.Pop();
             s2.Push(temp);
 
             if (temp.LeftChild != null)
@@ -301,14 +301,13 @@ public void LevelOrderTraversal(){
                 s1.Push(temp.LeftChild);
             }
 
-            if (temp.RightChild != nul)
+            if (temp.RightChild != null)
             {
                 s1.Push(temp.RightChild);
             }
 
-            }
+        }
         ///pop the stack 2 and print
         }
     }
 
-}

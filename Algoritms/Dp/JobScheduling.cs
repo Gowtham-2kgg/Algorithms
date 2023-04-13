@@ -18,6 +18,7 @@ public class JobScheduling
                         dp[i] = dp[j] + profit[i];
                     }
                 }
+                
             }
             //find the max
     }

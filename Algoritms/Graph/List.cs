@@ -33,7 +33,7 @@ public class List
     {
         var graph = new List<List<int>>();
         var edge = new List<List<int>>();
-        var input =new int[5,5]
+        var input = new int[5, 5];
         for (int i = 0; i < input.GetLength(0); i++)
         {
             for (int j = 0; j < input.GetLength(1); j++)
@@ -220,7 +220,7 @@ public class List
             int u = FindMinValue(graph, isVisited, distance);
             isVisited[u] = true;
             var t = new SortedSet<int>();
-            var r=t[2]
+          
             for (int v = 0; v < 10; v++)
             {
                 if (!isVisited[v] && graph[u][v] != 0 &&

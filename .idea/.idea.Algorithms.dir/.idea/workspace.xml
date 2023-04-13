@@ -7,40 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algoritms/Graph/ManhattanDistance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritms/Graph/List.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Graph/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritms/Graph/Matrix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Trees/AnaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritms/Trees/AnaryTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Trees/Trees.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritms/Trees/Trees.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bin/Debug/net6.0/Algorithm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bin/Debug/net6.0/Algorithm.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bin/Debug/net6.0/Algorithm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bin/Debug/net6.0/Algorithm.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/bin/Debug/net6.0/Algorithm.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Algorithm.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Algorithm.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Algorithm.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/Algorithm.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/apphost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/ref/Algorithm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/Debug/net6.0/refint/Algorithm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritms/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritms/Graph/List.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +88,7 @@
       <updated>1681110105965</updated>
       <workItem from="1681110111534" duration="664000" />
       <workItem from="1681283025714" duration="12723000" />
-      <workItem from="1681369446137" duration="995000" />
+      <workItem from="1681369446137" duration="1906000" />
     </task>
     <servers />
   </component>

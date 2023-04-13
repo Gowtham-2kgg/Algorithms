@@ -219,6 +219,8 @@ public class List
         {
             int u = FindMinValue(graph, isVisited, distance);
             isVisited[u] = true;
+            var t = new SortedSet<int>();
+            var r=t[2]
             for (int v = 0; v < 10; v++)
             {
                 if (!isVisited[v] && graph[u][v] != 0 &&

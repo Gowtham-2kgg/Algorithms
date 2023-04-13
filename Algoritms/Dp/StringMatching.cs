@@ -2,6 +2,7 @@ namespace Algoritms.Dp;
 
 public class StringMatching
 {
+    //same as edit distance
     public int MinimumChangesToMAkeStringSame(string one, string two)
     {
         int[,] dp = new int[one.Length+1,two.Length+1];

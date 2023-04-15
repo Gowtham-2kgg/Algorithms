@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Greedy/Caching.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Greedy/MatrixMultiplication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/FloydWarshall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/Prims.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,7 @@
       <workItem from="1681283025714" duration="12723000" />
       <workItem from="1681369446137" duration="12554000" />
       <workItem from="1681439505758" duration="13000" />
-      <workItem from="1681526332338" duration="6317000" />
+      <workItem from="1681526332338" duration="9952000" />
     </task>
     <servers />
   </component>

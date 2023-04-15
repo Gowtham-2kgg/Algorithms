@@ -187,6 +187,8 @@ public class List
         }
     }
     //Dijikstra is used to find shortest path
+    //Prims is ame like this but only thins is prims covers shortest path this one is for all shortest possible path
+    //in prims we will assign here we will update
     public int FindMinValue(List<List<int>> graph, bool[] isVisited, int[] distance)
     {
         int min=Int32.MaxValue;

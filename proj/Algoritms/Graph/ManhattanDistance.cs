@@ -23,6 +23,12 @@ public class ManhattanDistance
                     max = ditance;
                 }
             }
+
+            var asd = new Dictionary<string, string>();
+            var yatst = new SortedSet<int>();
+            yatst.Min();
+            var s = "fwefvsd";
+            s.Reverse();
         }
     }
 }

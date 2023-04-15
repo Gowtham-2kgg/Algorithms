@@ -8,35 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/CatalanNumbers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/CoinChange.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/HuffmanCode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Greedy/Caching.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Greedy/MatrixMultiplication.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Algoritms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Algoritms.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Dp/DpExampleOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/DpExampleOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Dp/JobScheduling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/JobScheduling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Dp/LongestCommonSubString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/LongestCommonSubString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Dp/StringMatching.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Dp/StringMatching.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Graph/ManhattanDistance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/ManhattanDistance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Graph/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Graph/Matrix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Trees/AnaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Trees/AnaryTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/Trees/Trees.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Trees/Trees.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Algoritms.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Algoritms.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Algoritms.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Algoritms.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Algoritms.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Algoritms.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/Debug/net6.0/Algoritms.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/Debug/net6.0/Algoritms.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritms/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Graph/ManhattanDistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Graph/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Trees/Trees.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e96ee1d84df74fe9843e05e9192298e83f000/5d/ce2c7e57/PriorityQueue`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,7 +113,7 @@
       <workItem from="1681283025714" duration="12723000" />
       <workItem from="1681369446137" duration="12554000" />
       <workItem from="1681439505758" duration="13000" />
-      <workItem from="1681526332338" duration="1845000" />
+      <workItem from="1681526332338" duration="6317000" />
     </task>
     <servers />
   </component>

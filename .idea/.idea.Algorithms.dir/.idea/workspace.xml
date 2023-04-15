@@ -8,8 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Sorting/Bubble.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Sorting/MergeSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj/Algoritms/Sorting/BucketSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/Algoritms/Sorting/MergeSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/proj/Algoritms/Sorting/MergeSort.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,8 @@
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Graph/ManhattanDistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Graph/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/proj/Algoritms/Sorting/BucketSort.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/proj/Algoritms/Sorting/MergeSort.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/proj/Algoritms/Trees/Trees.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e96ee1d84df74fe9843e05e9192298e83f000/5d/ce2c7e57/PriorityQueue`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -112,7 +117,8 @@
       <workItem from="1681283025714" duration="12723000" />
       <workItem from="1681369446137" duration="12554000" />
       <workItem from="1681439505758" duration="13000" />
-      <workItem from="1681526332338" duration="10733000" />
+      <workItem from="1681526332338" duration="10934000" />
+      <workItem from="1681561993943" duration="1856000" />
     </task>
     <servers />
   </component>

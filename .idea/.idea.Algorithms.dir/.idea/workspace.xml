@@ -4,14 +4,102 @@
     <projectFile>Algorithm/Algorithm.csproj</projectFile>
     <projectFile>Algorithms/Algorithms.csproj</projectFile>
     <projectFile>Algoritms/Algoritms.csproj</projectFile>
+    <projectFile>Project/Project.csproj</projectFile>
     <projectFile>proj/proj.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25742cb4-f903-45c9-9de8-9e66ffcbf384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/QuickSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/SelectionSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/KnapSack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Algorithms/Searching/BinarySearch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Algorithms/Searching/LinearSearch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Algorithms/Searching/StringSearching.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/0/0/00aaa97bf76789ac153dbeb76b785cc59703dd1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/1/2/127a9f30bd6ba6bf83e8e2f1ea519947de020a3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/1/f/1f67ec653d70d798236a06db9119efbecf0138fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/2/6/260dc260695d9d0d06c701e38b28d035016c640d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/3/6/364b943a26902d570680976b05c62dc9612ee85a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/4/1/41ec7f2644b27a1179b45c7b9ac47ff846e9e14c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/5/2/52791e3893d22ac735e8599cbd6d3d6e37600a18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/6/c/6cdb5d777f02a937ba9b4d8e60b42ee5954c32ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/8/9/892b557198ec0a8372299e468c952ee1f1f43f45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/a/2/a2af6571aa91f44e3fa847edafce4146b09fc949" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/e/0/e055c3bbc2cf432f86d564473610ee2ac3633a1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/e/e/eebb31ad1000be16ad015089f3aaa8dfb1a378e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/f/3/f3d405813d4eee95bc310c09bbfa16168b9b1b12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/0/0/00aaa97bf76789ac153dbeb76b785cc59703dd1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/1/2/127a9f30bd6ba6bf83e8e2f1ea519947de020a3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/1/f/1f67ec653d70d798236a06db9119efbecf0138fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/2/6/260dc260695d9d0d06c701e38b28d035016c640d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/3/6/364b943a26902d570680976b05c62dc9612ee85a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/4/1/41ec7f2644b27a1179b45c7b9ac47ff846e9e14c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/5/2/52791e3893d22ac735e8599cbd6d3d6e37600a18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/6/c/6cdb5d777f02a937ba9b4d8e60b42ee5954c32ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/8/9/892b557198ec0a8372299e468c952ee1f1f43f45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/a/2/a2af6571aa91f44e3fa847edafce4146b09fc949" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/e/0/e055c3bbc2cf432f86d564473610ee2ac3633a1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/e/e/eebb31ad1000be16ad015089f3aaa8dfb1a378e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/f/3/f3d405813d4eee95bc310c09bbfa16168b9b1b12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithms.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/MergeSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/MergeSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algorithms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algorithms.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Algoritms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Algoritms.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/CatalanNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/CatalanNumbers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/CoinChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/CoinChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/DpExampleOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/DpExampleOne.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/HuffmanCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/HuffmanCode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/JobScheduling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/JobScheduling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/LongestCommonSubString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/LongestCommonSubString.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Dp/StringMatching.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/StringMatching.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Graph/FloydWarshall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/FloydWarshall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Graph/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/List.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Graph/ManhattanDistance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/ManhattanDistance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Graph/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/Matrix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Graph/Prims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/Prims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Greedy/Caching.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Greedy/Caching.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Greedy/MatrixMultiplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Greedy/MatrixMultiplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/Bubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/Bubble.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/BucketSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/BucketSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/MergeSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/MergeSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/QuickSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/QuickSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Sorting/SelectionSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/SelectionSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Trees/AnaryTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Trees/AnaryTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/Trees/Trees.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/Trees/Trees.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Algoritms.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net5.0/Algoritms.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/Debug/net6.0/Algoritms.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Algoritms/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Algoritms/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Algorithms.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Algorithms.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Algorithms.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Algorithms.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/Debug/net6.0/Algorithms.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/Debug/net6.0/Algorithms.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Algorithms/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +107,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Dp/CoinChange.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Graph/List.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Graph/ManhattanDistance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Graph/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Sorting/BucketSort.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Sorting/MergeSort.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Algorithms/Algoritms/Trees/Trees.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/CoinChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Dp/KnapSack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/ManhattanDistance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/Bubble.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/BucketSort.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/MergeSort.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/QuickSort.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Sorting/SelectionSort.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Trees/Trees.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Searching/BinarySearch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Searching/LinearSearch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/Algorithms/Searching/StringSearching.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e96ee1d84df74fe9843e05e9192298e83f000/5d/ce2c7e57/PriorityQueue`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -86,6 +182,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Project" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Project/Project.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="proj" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -105,6 +219,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue=".NET Project.Project" />
       <item itemvalue=".NET Project.Algorithm" />
       <item itemvalue=".NET Project.Algoritms" />
       <item itemvalue=".NET Project.proj" />
@@ -123,7 +238,9 @@
       <workItem from="1681369446137" duration="12554000" />
       <workItem from="1681439505758" duration="13000" />
       <workItem from="1681526332338" duration="10934000" />
-      <workItem from="1681561993943" duration="4613000" />
+      <workItem from="1681561993943" duration="5341000" />
+      <workItem from="1681575789319" duration="2472000" />
+      <workItem from="1681734809471" duration="315000" />
     </task>
     <servers />
   </component>
@@ -150,16 +267,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Algorithms/Algoritms/Graph/List.cs</url>
+          <url>file://$PROJECT_DIR$/Project/Algorithms/Algoritms/Graph/List.cs</url>
           <line>187</line>
-          <properties documentPath="$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" initialLine="187" containingFunctionPresentation="method 'bfs'">
-            <startOffsets>
-              <option value="4710" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4711" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/proj/Algoritms/Graph/List.cs" initialLine="187" containingFunctionPresentation="method 'bfs'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

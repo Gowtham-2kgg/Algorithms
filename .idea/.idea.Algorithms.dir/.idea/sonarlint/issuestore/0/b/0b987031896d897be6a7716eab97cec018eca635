@@ -1,0 +1,11 @@
+
+Tcsharpsquid:S1125Æ"*Remove the unnecessary Boolean literal(s).(ÚõıÄûÿÿÿÿ8´õÄ¬÷0
+Scsharpsquid:S1066X"/Merge this if statement with the enclosing one.(í¸Û´8À´ù©÷0
+[csharpsquid:S3267o"2Loops should be simplified with "LINQ" expressions(·ûèĞúÿÿÿÿ8›£ÿ©÷0
+_csharpsquid:S4158";Remove this call, the collection is known to be empty here.(äàí8Åùé¨÷0
+_csharpsquid:S4158";Remove this call, the collection is known to be empty here.(¿ä„É8Åùé¨÷0
+_csharpsquid:S4158)";Remove this call, the collection is known to be empty here.(äàí8Î¾ÁÍ÷0
+_csharpsquid:S4158*";Remove this call, the collection is known to be empty here.(¿ä„É8Î¾ÁÍ÷0
+dcsharpsquid:S4158+";Remove this call, the collection is known to be empty here.(Ÿ¸³úÿÿÿÿ8Î¾ÁÍ÷0
+Ocsharpsquid:S1481à"%Remove the unused local variable 't'.(ìÔáúÿÿÿÿ8ÍƒÁÍ÷0
+<csharpsquid:S4663Z"Remove this empty comment(è»»_8À´ù©÷0
